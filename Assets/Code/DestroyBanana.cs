@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class DestroyBanana : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnParticleCollisionEnter2D()
     {
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (gameObject.CompareTag("Enemy"))
+        if (gameObject.transform.localScale.magnitude >= 3)
         {
-            Destroy(gameObject, 10f);
+            Destroy(gameObject);
+            transform.localScale = transform.localScale / 2;
+            Instantiate(gameObject);
+        }
+
+        else
+        {
+            Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 }

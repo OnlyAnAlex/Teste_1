@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 5509038356365860320}
   - component: {fileID: 1916822150688938171}
   - component: {fileID: 8195354765912908599}
-  - component: {fileID: 5412119634477961274}
   - component: {fileID: -6836856941249484792}
   - component: {fileID: 3282436774066484198}
+  - component: {fileID: 6718379229047942126}
   m_Layer: 0
   m_Name: soul
   m_TagString: Untagged
@@ -209,29 +209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbd: {fileID: 0}
---- !u!114 &5412119634477961274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4156022886422425949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b1efcd2c0f93c3428d8dc35a885d69c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  banana: {fileID: 5166741485054855429, guid: 9c12ce6f63a650a4baeaa2fdeb4b82b2, type: 3}
-  timeBtwSpawn: 0
-  startTimeBtwSpawn: 5
-  decreaseTime: 0
-  minTime: 0.65
-  spawnSide: 0
-  spawnSize: 0
-  sizes:
-  - 1.5
-  - 3
-  - 6
 --- !u!198 &-6836856941249484792
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -5029,6 +5006,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &6718379229047942126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156022886422425949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9a8fa550d5bd84fa553b6fa6bf2d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerParticle: {fileID: 0}
 --- !u!1 &8189462102874174259
 GameObject:
   m_ObjectHideFlags: 0

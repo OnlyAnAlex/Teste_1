@@ -48,7 +48,7 @@ public class MovePlayer : MonoBehaviour
     void Movement(ParticleSystem fire)
     {
         direction = Vector2.zero;
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.W) && (transform.localScale.sqrMagnitude > 0))
         {
             rdb.AddRelativeForce(Vector2.right * speed * Time.deltaTime);
             fire.Play();

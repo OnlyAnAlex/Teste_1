@@ -11,11 +11,13 @@ GameObject:
   - component: {fileID: 6428915866261730902}
   - component: {fileID: 8875712813311607686}
   - component: {fileID: 3221475162985315537}
-  - component: {fileID: -8552306993250770976}
   - component: {fileID: 551135638373576672}
   - component: {fileID: 7138770814020039465}
   - component: {fileID: 3544680920843266797}
   - component: {fileID: 6582348285525774874}
+  - component: {fileID: 2236312903316999050}
+  - component: {fileID: 3318575286335300722}
+  - component: {fileID: -2724325987171959472}
   m_Layer: 7
   m_Name: banan_0
   m_TagString: Enemy
@@ -111,19 +113,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-8552306993250770976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5166741485054855429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76ad19db9e7051746aa95861c26bf0de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bananaPos: {fileID: 6428915866261730902}
 --- !u!61 &551135638373576672
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,7 +125,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 192
@@ -153,7 +142,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.036569595, y: 0.030475453}
@@ -203,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5166741485054855429}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f3608ae1313fb24ab1c51ae62800ac8, type: 3}
   m_Name: 
@@ -216,8 +205,45 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5166741485054855429}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a249988953d465244ba5a8c51bfe4d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2236312903316999050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166741485054855429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ad19db9e7051746aa95861c26bf0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bananaPos: {fileID: 6428915866261730902}
+--- !u!114 &3318575286335300722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166741485054855429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a65e207b5fc4344a86e77a2f3f4026f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2724325987171959472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166741485054855429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90145bb86bbc69f4dab72ddd68b696fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
