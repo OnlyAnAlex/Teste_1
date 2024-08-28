@@ -607,7 +607,7 @@ ParticleSystemRenderer:
   m_MaxParticleSize: 0.5
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
-  m_LengthScale: 2.5
+  m_LengthScale: 1
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
@@ -715,7 +715,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -822,7 +822,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 0.2509804, a: 1}
+      maxColor: {r: 1, g: 0.99999994, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -12153,6 +12153,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1361859898822090985, guid: d483cd92cca3c6b409027a814552a3b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796043811776963409, guid: d483cd92cca3c6b409027a814552a3b9, type: 3}
+      propertyPath: EmissionModule.enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1916822150688938171, guid: d483cd92cca3c6b409027a814552a3b9, type: 3}
