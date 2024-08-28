@@ -23,7 +23,7 @@ public class Spawn1 : MonoBehaviour
     void Update()
     {
         bananas = GameObject.FindGameObjectsWithTag("Enemy");
-        if (bananas.Length <= 2)
+        if (bananas.Length <= 0)
         {
             BananaMaker();
         }
